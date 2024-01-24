@@ -6,6 +6,7 @@ def connect_to_wifi():
     wifi_password = password_entry.get()
     command = f'sudo raspi-config nonint do_wifi_ssid_passphrase {wifi_name} {wifi_password}'
     os.system(command)
+    root.destroy()
 
 def select(value):
     global shift
