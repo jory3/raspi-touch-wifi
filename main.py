@@ -126,4 +126,5 @@ def buttons(row_val, col_val, button_vals):
 buttons(row_val, col_val, button_values)
 
 root.title("Wifi Connect")
+root.geometry("800x450")
 root.mainloop()
